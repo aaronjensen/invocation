@@ -6,10 +6,10 @@ ENV["TEST_BENCH_DETAIL"] ||= ENV["D"]
 
 puts RUBY_DESCRIPTION
 
-require_relative '../init.rb'
+require_relative "../init.rb"
 
-require 'test_bench'; TestBench.activate
-require 'pp'
-require 'securerandom'
+require "test_bench"; TestBench.activate
+require "pp"
+require "securerandom"
 
-require 'invocation/controls'
+require "invocation/controls"
